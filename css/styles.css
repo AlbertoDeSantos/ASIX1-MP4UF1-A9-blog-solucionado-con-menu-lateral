@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+/* Redimensión de fuente utilizando rem */
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+h5{
+    font-size: 1.15rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+/**************************/
+
+/* clases predefinidas */
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Diseño de columnas */
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+.column-nav{
+    width: 25%;
+    float: left;
+}
+
+.column-nav a{
+    text-decoration: none;
+}
+
+/* Otras clases */
+
+
+/* clases web */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 100vh;
+    background-image: url("../img/brandon-burridge-4o7f9_Z73a4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+img{
+    width: 100%;
+}
+#img-1{
+    height: 50vh;
+    background-image: url("../img/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img-2{
+    height: 50vh;
+    background-image: url("../img/colin-lloyd-DvVcwl4cUsc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#img-3{
+    height: 50vh;
+    background-image: url("../img/scott-rodgerson-G6dXvXN2gVM-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#card-1{
+    height: 50vh;
+    background-image: url("../img/isabela-kronemberger-hxOg4o5oNFA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#card-2{
+    height: 50vh;
+    background-image: url("../img/maxim-shklyaev-a1CJ9CV15cM-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#card-3{
+    height: 50vh;
+    background-image: url("../img/filipp-romanovski-vW-7jhb84Nw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#card-4{
+    height: 50vh;
+    background-image: url("../img/alex-kulikov-thGJR-5J4jU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+article{
+    background-color: rgb(227, 227, 227);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#prefooter{
+    background-color: #495057;
+    color: whitesmoke;
+}
+
+
+footer{
+    background-color: black;
+    color: rgba(245, 245, 245, 0.536);
+}
+
+footer p{
+    font-size: 0.8rem;
+}
+
+/* clases auxiliares */
+.padding-s{
+    padding: 2%;
+}
+
+.padding-m{
+    padding: 6%;
+}
+
+.back-white{
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+/*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3{
+        width: 100%;
+    }
+
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4{
+        width: 50%;
+    }
+
+    .column-75,.column-nav{
+        width: 100%;
+    }
+}
